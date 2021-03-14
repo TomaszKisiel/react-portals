@@ -1,0 +1,23 @@
+.message {
+    background: #E5E5E4;
+    padding: 1rem;
+    margin-bottom: 24px;
+    color: #555;
+}
+
+.message:last-child {
+    margin-bottom: 0;
+}
+
+.message .message__header {
+    font-size: 1.5rem;
+}
+
+.message .message__divider {
+    margin: .5rem -1rem;
+    border-bottom: 1px solid #282c34;
+}
+
+.message .message__content {
+    line-height: normal;
+}
